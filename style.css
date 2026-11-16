@@ -1,0 +1,52 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Стили для заголовков */
+h1{
+    color: red;
+    margin-bottom: 15px;
+}
+h2{
+    color: blue;
+    margin-bottom: 17px;
+}
+
+/* Стили для списков */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Стили для отступов между разделами */
+.section {
+    background: white;                            /* карточки на сером фоне */
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin-bottom: 30px;
+}
+
+/* Стили для изображений (если будете добавлять) */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+html {
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover {
+    color: #c0392b;
+}
